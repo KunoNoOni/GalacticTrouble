@@ -112,6 +112,14 @@ package
 			Hero = new Player(2,9);
 			add(Hero);			
 			
+			var achieve:FlxText = new FlxText(FlxG.width*0.5-500,FlxG.height-110, 1024, "[TAB] for Achievements [ESC] to return to game");
+			achieve.setFormat(null,22,0x000000, "center");
+			add(achieve);
+			
+			var achieve2:FlxText = new FlxText(FlxG.width*0.5-500,FlxG.height-113, 1024, "[TAB] for Achievements [ESC] to return to game");
+			achieve2.setFormat(null,22,0xC80000, "center");
+			add(achieve2);
+			
 			var instruct:FlxText = new FlxText(FlxG.width*0.5-500,FlxG.height-70, 1024, "PRESS [x] TO BEGIN MISSION");
 			instruct.setFormat(null,40,0x000000, "center");
 			add(instruct);
