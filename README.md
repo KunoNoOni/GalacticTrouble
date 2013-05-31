@@ -1,0 +1,1 @@
+This is my entry for One Game A Month for the month of May. Its a space shooter with heavy influences from Astrosmash for the intellivision. There really is no way to "win" its all about getting the highest score.
